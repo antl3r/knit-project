@@ -10,13 +10,13 @@ const TestService = KnitServer.CreateService({
 	Name: "TestService",
 
 	Client: {
-		echo(player: Player, string: string) {
-			print(`Client ${player.Name} said: ${string}`);
+		echo(player: Player, text: string) {
+			print(`Client ${player.Name} said: ${text}`);
 		},
 	},
 
-	echo(string: string) {
-		print(`Server said: ${string}`);
+	echo(text: string) {
+		print(`Server said: ${text}`);
 	},
 
 	KnitStart() {

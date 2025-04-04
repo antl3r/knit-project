@@ -22,5 +22,9 @@
     "prettier": "^3.5.3",
     "roblox-ts": "^3.0.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@rbxts/knit": "^0.0.21-alpha.0",
+    "@rbxts/services": "^1.5.5"
   }
 }
